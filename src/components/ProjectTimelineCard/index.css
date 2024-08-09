@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.TimeLine-Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 7pc;
+  margin-bottom: 7px;
+  border-radius: 8px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.heading-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #1e293b;
+  font-size: 18px;
+}
+.time {
+  font-size: 12px;
+  color: #1e293b;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+.visit {
+  color: #0967d2;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-decoration: none;
+}

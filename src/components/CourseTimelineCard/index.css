@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #ffffff;
+}
+.container-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.para {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.tag-list {
+  color: #1e293b;
+
+  font-family: 'Roboto';
+  background-color: azure;
+  list-style-type: none;
+}
+
+.tag-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.btn {
+  color: #1e293b;
+  background-color: azure;
+  font-size: 8px;
+  font-family: 'Roboto';
+  margin-right: 3px;
+  border-radius: 5px;
+}
